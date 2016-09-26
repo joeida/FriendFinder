@@ -1,0 +1,28 @@
+body {
+    background-color: blue;
+}
+
+#outer {
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+#inner {
+    position:relative;
+    width:80%;
+    height:50px;
+    padding:30px;
+}
+
+.title {
+	font-family: 'Lobster', cursive;
+	font-size: 48px;
+	border-bottom: 1px;
+    color: #FA9A2A;
+}
+
+#submitDiv {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
