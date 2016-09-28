@@ -15,8 +15,8 @@ exports.getFriends = function(app) {
 exports.postSurvey = function(app) {
     app.post('/api/friends', function (req, res) {
         var newUser = req.body;
-        console.log(newUser);
-        var result = data.compare(newUser);
+        var newUserConverted = data.convert(newUser);
+        var result = data.compare(newUserConverted);
         res.json(result);
     });
 };
