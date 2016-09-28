@@ -18,7 +18,7 @@ exports.sampleUsers = [
     },
     {
         "name":"Stanley",
-        "photo":"http://www.publicdomainpictures.net/pictures/30000/velka/dog-1349074812Hpj.jpg",
+        "photo":"https://www.publicdomainpictures.net/pictures/30000/velka/dog-1349074812Hpj.jpg",
         "scores":[
             1,
             3,
