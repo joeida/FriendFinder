@@ -1,5 +1,9 @@
-body {
-    background-color: blue;
+p {
+    color: blue;
+}
+
+.test {
+    background-color: lightblue;
 }
 
 #outer {
@@ -16,8 +20,8 @@ body {
 }
 
 .title {
-	font-family: 'Lobster', cursive;
-	font-size: 48px;
+    font-family: 'Chewy', cursive;
+	font-size: 50px;
 	border-bottom: 1px;
     color: #FA9A2A;
 }

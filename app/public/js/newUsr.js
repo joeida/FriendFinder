@@ -22,8 +22,8 @@ $(document).ready(function(){
 
 		$.post(siteUrl, newFriend)
 			.done(function (data) {
-				console.log(data);
-				alert('Adding friend');
+				$('#compImg').attr('src', data.photo);
+				$('.modal-title').text('Hi!  My Name is ' + data.name + '!');
 				$('#myModal').modal('show');
 			});
 
