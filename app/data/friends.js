@@ -58,8 +58,6 @@ exports.convert = function (newUser) {
 }
 
 exports.compare = function (newUser) {
-    console.log(exports.sampleUsers);
-    console.log(newUser);
     var lowestNum = 50;
     var calcNum = 0;
     var compUser;
@@ -68,7 +66,7 @@ exports.compare = function (newUser) {
             var compNum = Math.abs(exports.sampleUsers[i].scores[j] - newUser.scores[j]);
             calcNum += compNum;
         }
-        console.log(calcNum);
+        // console.log(calcNum);
         if (calcNum < lowestNum) {
             lowestNum = calcNum;
             compUser = exports.sampleUsers[i];
