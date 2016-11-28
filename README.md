@@ -22,5 +22,5 @@
 ### Screenshot
 <img width="576" alt="friendfinder" src="https://cloud.githubusercontent.com/assets/18523345/20656816/62e37170-b4e5-11e6-9fca-c55258eba137.png">
 
-### Links
+### Link
 [Friend Finder Application](https://salty-reef-23392.herokuapp.com/)
