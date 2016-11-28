@@ -4,7 +4,7 @@
 * Create a basic dating application
 
 ### Objective
-* Use node, express, html, css, and routing to create a basic dating application.
+* Deomonstrate the use of node, express, html, css, and routing in the creation of a basic dating application.
   1. Create 10 dating compatibility questions to ask users with a scale of 1 to 5 based on how much the user agrees or disagrees.
   2. Create node server to output html page.
   3. Use /survey GET route to display survey page.
